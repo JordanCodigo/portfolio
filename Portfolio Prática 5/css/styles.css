@@ -1,0 +1,153 @@
+:root{
+    --primary-color: hsl(240, 50%, 50%);
+    --bg-color: hsl(1, 5%, 98%);
+    --text-color: hsl(0, 0%, 15%);
+    --bg-color-card: hsl(10, 10%, 80%);
+    --font-family: sans-serif;
+    --border-radius: .5rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;    
+}
+
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+body.dark{
+    --bg-color: hsl(0, 0%, 15%);
+    --text-color: hsl(1, 5%, 98%);
+    --bg-color-card: hsl(0, 0%, 50%);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    background-color: var(--bg-color-card);
+    height: 75px;
+}
+
+.toggle-theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-theme__icon{
+    width: 20px;
+    margin-right: 0.2em;
+}
+
+.toggle-theme__text{
+    font-size: 0.8em;
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 20px;    
+}
+
+.colors__item{
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+}
+
+.colors__item--red{
+    --primary-color: hsl(1, 50%, 50%);
+}
+
+.colors__item--green{
+    --primary-color: hsl(120, 50%, 50%);
+}
+
+.colors__item--blue{
+    --primary-color: hsl(240, 50%, 50%);
+}
+
+.colors__item--yellow{
+    --primary-color: hsl(60, 50%, 50%);
+}
+
+.title{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.main{
+    display: grid;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 720px){
+    .main{
+        grid-template-columns: min-content 1fr;
+    }
+}
+
+.card{
+    padding: 1rem;
+    background-color: var(--bg-color-card);
+    border-radius: var(--border-radius);
+}
+
+.card__image--container{
+    width: 320px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.card__header{
+    margin: 1.2rem 0;
+}
+
+.card_title{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card_subtitle{
+    margin: 0;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.card_link{
+    line-height: 1.5rem;
+    font-size: 0.9rem;  
+    color: var(--primary-color);
+}
+
+.card_link a{
+    color: var(--primary-color);
+}
+
+.icon{
+    margin-right: 0.5rem;
+}
+
+.card_text{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}

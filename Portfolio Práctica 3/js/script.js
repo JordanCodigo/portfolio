@@ -1,0 +1,24 @@
+const toggleTheme = document.getElementById('toggle-theme');
+const toggleIcon = document.getElementById('toggle-icon');
+const toggleText = document.getElementById('toggle-text');
+const toggleColors = document.getElementById('toggleColors');
+
+const variable = document.documentElement.style;
+
+toggleTheme.addEventListener('click',()=>{
+
+    document.body.classList.toggle('dark');    
+    if(toggleIcon.src.includes('dark_mode.svg')){
+        toggleIcon.src = "assets/icons/sun_mode.svg";
+        toggleText.textContent = 'Light Mode';
+    }else{
+        toggleIcon.src = "assets/icons/dark_mode.svg";
+        toggleText.textContent = 'Dark Mode';
+    }
+
+})
+
+toggleColors.addEventListener('click',(e)=>{
+    // console.log(e.target.dataset.color);
+    variable.setProperty('--text-primary', e.target.dataset.color);
+})

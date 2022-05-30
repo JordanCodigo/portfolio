@@ -1,0 +1,27 @@
+/*
+CurrentColor: Es una palabra clave que se puede usar en lugar de cualquier valor de color y usará el valor ya sea establecido o heredado en la propiedad color.
+*/
+
+body{
+    background-color: mediumorchid;
+    /* background-color: hsl(60, 100%, 50%); */
+    /* background-color: hsl(60 100% 50% / 0.5); */
+    /* color: #333; */
+}
+
+.main{
+    /* color: aquamarine; */
+    /* background-color: currentColor; */
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #808080;
+    /* border: 5px solid; */    
+    /* background-color: rgba(0, 0, 0, .1); */
+    /* background-color: rgb(0 0 0 / .5); */
+    /* box-shadow: 5px 5px 10px rgb(0 0 0 / .5); */
+    box-shadow: 5px 5px 10px #0008;
+    box-shadow: 5px 5px 10px hsl(180 50% 50%);
+}

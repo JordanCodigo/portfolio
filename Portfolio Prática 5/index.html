@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body class="dark">
+    
+    <header class="header">        
+        <div id="toggle-theme" class="toggle-theme">
+            <img id="toggle-icon" class="toggle-theme__icon" src="assets/icons/dark_mode.svg" alt="Dark Mode">
+            <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>        
+
+        <div id="colors" class="colors">
+            <div data-color="hsl(1, 50%, 50%)" class="colors__item colors__item--red"></div>
+            <div data-color="hsl(120, 50%, 50%)" class="colors__item colors__item--green"></div>
+            <div data-color="hsl(240, 50%, 50%)" class="colors__item colors__item--blue"></div>
+            <div data-color="hsl(60, 50%, 50%)" class="colors__item colors__item--yellow"></div>
+        </div>
+    </header>
+    <main class="main">
+        <section>
+            <article class="card">
+                <div class="card__image--container">
+                    <img src="assets/images/profile.jpg" alt="Dorian Image">
+                </div>
+                
+                <div class="card__header">
+                    <h2 class="card_title">Dorian Designs</h2>
+                    <p class="card_subtitle">Front End Developer</p>
+                </div>
+
+                <div class="card__body">
+                    <div class="card_link">
+                        <i class="icon fa-solid fa-envelope"></i>
+                        <a href="mailto:dorian@gmail.com">dorian@gmail.com</a>
+                    </div>
+
+                    <div class="card_link">
+                        <i class="icon fa-solid fa-phone"></i>
+                        <a href="to:+51 12345678">+51 12345678</a>
+                    </div>
+
+                    <p class="card_text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem labore nihil quisquam assumenda, quia numquam ut quod, incidunt similique, est magni. Illo ipsa recusandae accusamus non iusto, impedit aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </article>
+        </section>
+    </main>    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

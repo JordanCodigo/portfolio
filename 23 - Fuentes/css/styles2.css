@@ -1,0 +1,15 @@
+/*
+Formatos para fuentes:
+    True Type Font (TTF) -> 
+*/
+
+@font-face {
+    font-family: 'Mano alzada';
+    src: local('Great Vibes') ,url(../assets/fonts/SCRIPTIN.ttf);
+}
+
+body{
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Mano alzada';
+}

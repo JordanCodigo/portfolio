@@ -1,0 +1,144 @@
+:root{
+	--fondo-oscuro: #000;
+	--fondo-claro: #F5F7FB;
+
+	--color-primario : #505EF4;
+	--color-primario-oscuro: #3041F8;
+	--color-secundario: #B1B2C9;
+	--color-secundario-oscuro: #888AB7;
+	--color-blanco: #ffffff;
+
+	--fuente-primaria: 'Lato', sans-serif;
+}
+
+/* --color-primario: #df470b;
+	--fonto-oscuro: #060607;
+	--fuente-primaria: 'Lato', sans-serif; */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: #F5F7FB;
+	font-family: var(--fuente-primaria);
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* * ----- ----- ----- HEADER ----- ----- ----- */
+
+header {
+	min-height: 40vh;
+	background: var(--fondo-oscuro);
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+header .logotipo {
+	color: #B1B2C9;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+header .slogan {
+	font-size: 35px;
+	margin-bottom: 40px;
+}
+
+header .contenedor-botones {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+header .btn {
+	display: inline-block;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 5px;
+	transition: .3s ease all;
+}
+
+header .btn.primario {
+	background: var(--color-primario);
+}
+header .btn.primario:hover {
+	background: var(--color-primario-oscuro);
+}
+
+header .btn.secundario {
+	background: var(--color-secundario);
+}
+header .btn.secundario:hover {
+	background: var(--color-secundario-oscuro);
+}
+
+/* * ----- ----- ----- MAIN ----- ----- ----- */
+main .contenedor {
+	padding: 40px 0;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .card {
+	background: #FFFFFF;
+	color: #232533;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 50px rgba(0,0,0,.1)
+}
+
+main .card img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+main .card .texto {
+	margin-bottom: 20px;
+	line-height: 27px;
+}
+
+main .card .contenedor-botones {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+main .card .btn {
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 5px;
+	transition: .3s ease all;
+}
+
+main .card .btn.primario {
+	background: var(--color-primario);
+}
+main .card .btn.primario:hover {
+	background: #3041F8;
+}
+
+main .card .btn.secundario {
+	background: #B1B2C9;
+}
+main .card .btn.secundario:hover {
+	background: #888AB7;
+}

@@ -1,0 +1,86 @@
+:root{
+    --text-primary: hsl(228, 65%, 29%);
+    --text-color: hsl(0, 0%, 15%);
+    --bg-color: hsl(0, 0%, 95%);
+    --bg-color-card: hsl(0, 1%, 70%);
+    --transform: color 0.2s, background-color 0.2s ease-in-out;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--bg-color);  
+    color: var(--text-color);  
+    transform: var(--transform);
+}
+
+body.dark{
+    --text-color: #fff;
+    --bg-color: hsl(0, 0%, 15%);
+    --bg-color-card: hsl(0, 0%, 50%);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    padding: 1em 2em;
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+}
+
+.toggle-theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-theme__icon{
+    width: 20%;
+    margin-right: 0.2em;
+}
+
+.toggle-theme__text{
+    font-size: 0.8em;    
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    width: 100px;
+}
+
+.colors__item{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    background-color: var(--text-primary);
+}
+
+.colors__item--green{
+    --text-primary: hsl(134, 50%, 50%);
+}
+
+.colors__item--blue{
+    --text-primary: hsl(237, 85%, 50%);
+}
+
+.colors__item--red{
+    --text-primary: hsl(1, 85%, 49%);
+}
+
+.colors__item--yellow{
+    --text-primary: hsl(60, 90%, 51%);
+}
+
+.title{
+    text-align: center;
+    color: var(--text-primary);
+}

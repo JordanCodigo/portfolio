@@ -1,0 +1,18 @@
+body{
+    background-color: #333;
+    color: aliceblue;
+    font-family: sans-serif;
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: monospace; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.icon{
+    font-size: 5rem;
+    color: red;
+    /* filter: invert(1); */
+    fill: red;
+}

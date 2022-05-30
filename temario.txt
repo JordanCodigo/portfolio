@@ -1,0 +1,45 @@
+CSS 2021 
+
+NIVEL BÁSICO
+
+- primeros pasos //DONE
+- Estado de CSS //DONE
+- Fundamentos de CSS //DONE
+- Box Model //DONE
+- Posicionamiento //DONE
+- Borders //DONE
+- Outline //DONE
+- Sombras //DONE
+- Colores //DONE
+- Textos //DONE
+- Variables CSS //DONE
+
+NIVEL INTERMEDIO
+
+- Metodología BEM
+- Responsive Design
+- Imágenes
+- Videos
+- Background
+- Tablas
+- Listas
+- Formularios
+- Pseudoclases
+- Pseudoelementos
+- Flexbox
+- Grid
+
+NIVEL AVANZADO
+
+- Funcionamiento de CSS en el navegador
+- Propiedades animables
+- Estado inicial de los elementos
+- CSSOM
+- Transformaciones
+- Transiciones 2D
+- Eventos de transiciones (JS)
+- Animaciones 2D
+- Eventos de animaciones (JS)
+- Transiciones 3D
+- Animaciones 3D
+

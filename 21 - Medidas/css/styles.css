@@ -1,0 +1,59 @@
+/*
+rem -> Corresponde a la medida de la "m" de la raiz del documento (html).
+
+ejemplo -> 16px = 1rem
+
+em -> Corresponde a la medida de la "m" del contexto donde nos encontremos.
+
+El estandar del tañalo de fuente por defecto en la raiz del documento es 16px, y NO ES RECOMENDABLE MODIFICARLO.
+
+NOTA: Tanto "em" como "rem" se calcula en base a la propiedad font-size (tamaño de fuente)
+
+% -> Cuando usamos porcentage usamos de referencia el tamaño del contenedor y el navegador calcula ese porcentage. Esto no ocurre cuando usamos transform.
+
+auto -> Cuando usamos auto le pedimos al navegador que calcule en funcipon del espacio disponible
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;    
+    background-color: #333;
+    color: lightcoral;        
+    height: 300px;
+}
+
+/* .title{    
+    font-size: 3em;
+} */
+
+/* .link{
+    background-color: lightcoral;
+    color: #333;
+    padding: 1em 2em;
+    border-radius: .5em;
+    font-size: 2rem;
+} */
+
+.header{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.box{
+    width: 300px;    
+    height: 300px;
+    /* padding-bottom: 30px; */
+    background-color: lightgreen;
+}
+
+.box-children{
+    position: sticky;
+    top: 0;
+    width: 50%;
+    height: 100%;    
+    background-color: lightseagreen;
+}

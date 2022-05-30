@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Desarrollador Front-End",
+        "description": "Más de 9 años de experiencia en desarrollo web. Apasionado de las nuevas tecnologías y en especial del ecosistema de CSS y JavaScript. <br> Mi propósito es trasladar mi pasión por enseñar tecnologías web a todos aquellos que quieran iniciarse en este campo de un forma actualizada, con buenas prácticas y desde cero."
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Back-end",
+        "first-job-dates": "Enero 1995 - Enero 2000",
+        "first-job-description": "lorem ipsum dolor sit aet consectetur, adipisicing elit.",
+        "second-job-title": "Desarrollador Front-end",
+        "second-job-dates": "Feb 2000 - Mar 2005",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adiísicing elit.",
+        "last-job-title": "Desarrolador Front-End",
+        "last-job-dates": "Lorem ipsum dolor sit amet consectetur, adipisicin elit.",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    }
+}

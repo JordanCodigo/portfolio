@@ -1,0 +1,36 @@
+:root{
+    --text-primary: hsl(217, 40%, 21%);
+    --bg-color: hsl(0, 0%, 98%); 
+    --text-color: hsl(0, 0%, 15%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark{
+    --bg-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 98%);
+}
+
+.toggle-theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-theme__icon{
+    margin-right: .5em;
+    width: 25px;
+}
+
+.toggle-theme__text{
+    font-size: 0.8em;
+}

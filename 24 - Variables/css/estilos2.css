@@ -1,0 +1,11 @@
+:root{
+    --color-primario: #f3f3f3;
+    --bg-primario: #3f3f3f;
+    --text-size: 2.5rem;
+}
+
+body{
+    background-color: var(--bg-primario);
+    color: var(--color-primario);
+    font-size: var(--text-size);
+}

@@ -1,0 +1,42 @@
+/*
+Transformaciones de texto
+    Text-transform: Esta propiedad nos permite hacer transformaciones ESTÉTICAS en nuestro texto.
+    Admite los valores:
+        none: No se aplicará ninguna tranformación.
+        uppercase: El texto se pondrá en mayúscula
+        lowercase: El texto se pondrá en minúscula
+        capitalize: Transforma la primera letra de cada palabra mayúscula.
+    Adornos en el texto
+        Text-decoration: Esta propiedad nos permite controlar la linea que podemos poner en los textos.
+        Admite los valores:
+            none: Elimina cualquier linea.
+            underline: Coloca una linea bajo el texto.
+            overline: Coloca una linea sobre el texto.
+            line-through: Coloca una linea tachando el texto.
+
+        Text-shadow: Funciona exáctamente igual que box-shadow con la única diferencia de que no admite el valor inset ni la expansión de la sombra.
+
+*/
+
+body{
+    background-color: #333;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.text{
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+    /* text-transform: capitalize; */    
+    /* text-shadow: -30px 20px 5px; */
+    text-shadow: 2px 0px red, 2px 0px blue;
+    /* box-shadow: 30px 20px 1px; */
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+}

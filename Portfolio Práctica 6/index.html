@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body class="dark">
+
+    <header class="header">
+        <div id="toggle-theme" class="toggle-theme">
+            <img id="toggle-icon" class="toggle-theme__icon" src="assets/icons/dark_mode.svg" alt="Dark Mode">
+            <p id="toggle-text" class="toggle-theme__texto">Dark Mode</p>
+        </div>
+        <div id="colors" class="colors">
+            <div data-color="hsl(1, 60%, 50%)" class="colors__item colors__item--red"></div>
+            <div data-color="hsl(120, 60%, 50%)" class="colors__item colors__item--green"></div>
+            <div data-color="hsl(240, 80%, 50%)" class="colors__item colors__item--blue"></div>
+            <div data-color="hsl(60, 70%, 50%)" class="colors__item colors__item--yellow"></div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="column column-left">
+            <article class="card">
+                <div class="card-image">
+                    <img src="assets/images/profile.jpg" alt="Foto de perfil">
+                </div>
+
+                <div class="card-header">
+                    <h2 class="card-title">Dorian Designs</h2>
+                    <p class="card-subtitle">Progrador Front-End</p>
+                </div>
+
+                <div class="card-body">
+                    <div class="card-link">
+                        <i class="icon fa-solid fa-envelope"></i>
+                        <a href="mailto:dorian@gmail.com">dorian@gmail.com</a>
+                    </div>
+                    <div class="card-link">
+                        <i class="icon fa-solid fa-phone"></i>
+                        <a href="to:+51 12345678">+51 12345678</a>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi beatae assumenda, dolore eos cumque ipsam provident possimus quidem, sapiente eum laborum ipsum recusandae placeat magni voluptatem doloremque sequi eligendi sunt!</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="column column-right">
+            <article class="card">
+                <h2 class="card__title">Front End</h2>
+                <small>Años de experiencia</small>
+                <div class="skills">
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">5</span>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">PHP</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">React</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">Design</h2>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Photoshop</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Ilustrator</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Figma</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">Multimedia</h2>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">After Effects</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Premiere</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
